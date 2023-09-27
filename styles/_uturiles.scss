@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    all: unset;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start {
+    display: flex;
+    justify-content: center;
+}
+
+.j-c-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.j-c-space-between {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+}
+
+.j-c-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+.j-c-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f-d-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-d-column-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex1 {
+    flex: 1;
+}
+.gap10 {
+    display: flex;
+    gap: 10px;
+}
+.gap20 {
+    display: flex;
+    gap: 20px;
+}
+.gap30 {
+    display: flex;
+    gap: 30px;
+}
+.gap40 {
+    display: flex;
+    gap: 40px;
+}
+.gap200{
+    gap: 200px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.mb40 {
+    margin-bottom: 40px;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.p200 {
+    padding-inline: 200px;
+}
+
+
+

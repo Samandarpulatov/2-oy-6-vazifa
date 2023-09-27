@@ -1,0 +1,25 @@
+/* margin va padding utulirelari start */
+
+$tomonlar: (
+    t: top,
+    r: right,
+    b: bottom,
+    l: left,
+    x: inline,
+    y: block,
+);
+
+@each $kalit-soz, $value in $tomonlar {
+    @for $tartib-raqam from 10 through 20 {
+        .m#{$kalit-soz}-#{$tartib-raqam} {
+            margin-#{$value}: #{$tartib-raqam}px;
+        }
+    }
+    @for $tartib-raqam from 10 through 20 {
+        .p#{$kalit-soz}-#{$tartib-raqam} {
+            padding-#{$value}: #{$tartib-raqam}px;
+        }
+    }
+}
+
+/* margin va padding utulirelari end */
